@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'echo "XXXXXXXXXXXXXX" #mvn --version'
+                sh 'echo "master branch" #mvn --version'
             }
         }
     }
