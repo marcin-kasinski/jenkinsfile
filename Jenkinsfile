@@ -12,6 +12,7 @@ pipeline {
             steps {
                 sh 'echo "master add test stage" #mvn --version'
                 sayHello 'Dave'
+                sayHello2 'Dave'
             }
         }
 
