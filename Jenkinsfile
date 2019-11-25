@@ -1,5 +1,5 @@
 //@Library('pipeline-library-demo')_
-library {'pipeline-library-demo'}
+library ('pipeline-library-demo')
 
 pipeline {
     agent  any 
