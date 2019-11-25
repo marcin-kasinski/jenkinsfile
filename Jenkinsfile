@@ -20,6 +20,7 @@ pipeline {
 stage('Demo') {
     echo 'Hello world'
     sayHello 'Dave'
+    sayHello2 'Dave'
 }
 
     }
