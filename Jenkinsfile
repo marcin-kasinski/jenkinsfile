@@ -1,3 +1,8 @@
+libraries {
+  lib('pipeline-library-demo')
+}
+
+
 pipeline {
     agent { docker { image 'maven:3.3.3' } }
     stages {
@@ -11,5 +16,11 @@ pipeline {
                 sh 'echo "master add test stage" #mvn --version'
             }
         }
+
+stage('Demo') {
+    echo 'Hello world'
+    sayHello 'Dave'
+}
+
     }
 }
