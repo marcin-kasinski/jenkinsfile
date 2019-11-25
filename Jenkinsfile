@@ -1,5 +1,5 @@
 //@Library('pipeline-library-demo')_
-libraries {
+library {
   lib('pipeline-library-demo')
 }
 
