@@ -14,14 +14,10 @@ pipeline {
         stage('test') {
             steps {
                 sh 'echo "master add test stage" #mvn --version'
+                sayHello 'Dave'
             }
         }
 
-stage('Demo') {
-    echo 'Hello world'
-    sayHello 'Dave'
-    sayHello2 'Dave'
-}
 
     }
 }
